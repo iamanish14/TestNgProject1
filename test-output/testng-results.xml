@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-09T11:56:18 IST" name="Default suite" finished-at="2023-05-09T11:56:53 IST" duration-ms="34641">
+    <groups>
+    </groups>
+    <test started-at="2023-05-09T11:56:18 IST" name="Default test" finished-at="2023-05-09T11:56:53 IST" duration-ms="34641">
+      <class name="com.testcases.TestCaseTC001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.TestCaseTC001@7b2bbc3]" started-at="2023-05-09T11:56:18 IST" name="setup" finished-at="2023-05-09T11:56:40 IST" duration-ms="21234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:com.testcases.TestCaseTC001@7b2bbc3]" started-at="2023-05-09T11:56:40 IST" name="logintest" finished-at="2023-05-09T11:56:43 IST" duration-ms="2823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="addtocart()[pri:0, instance:com.testcases.TestCaseTC001@7b2bbc3]" started-at="2023-05-09T11:56:43 IST" name="addtocart" finished-at="2023-05-09T11:56:48 IST" depends-on-methods="com.testcases.TestCaseTC001.logintest" duration-ms="5728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method signature="bagpage()[pri:0, instance:com.testcases.TestCaseTC001@7b2bbc3]" started-at="2023-05-09T11:56:48 IST" name="bagpage" finished-at="2023-05-09T11:56:52 IST" depends-on-methods="com.testcases.TestCaseTC001.logintest" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bagpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TestCaseTC001@7b2bbc3]" started-at="2023-05-09T11:56:52 IST" name="teardown" finished-at="2023-05-09T11:56:53 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.TestCaseTC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
